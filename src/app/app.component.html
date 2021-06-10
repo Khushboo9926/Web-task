@@ -1,0 +1,23 @@
+<div class="container">
+
+  <header class="text-center mb-5">
+    <div class="row">
+      <div class="col-lg-7 mx-auto">
+        <h1>Bootstrap pricing table</h1>
+        <p>Easily create a classy pricing table in Bootstrap&nbsp;4.<br> <a href="https://bootstrapious.com/snippets" class="text-reset">Bootstrap snippet by Bootstrapious</a></p>
+      </div>
+    </div>
+  </header>
+
+  <div class="row mt-5">
+
+    <div class="col-lg-4 mb-5 mb-lg-0" *ngFor="let product of Data">
+<app-card [Basic]="product.Basic" [color]= "product.color" [Price]="product.Price" [para1]="product.para1" [para2]="product.para2" 
+[para3]="product.para3" [para4]="product.para4" [para5]="product.para5" [para6]="product.para6"></app-card>
+</div>
+
+
+
+
+</div>
+</div>
